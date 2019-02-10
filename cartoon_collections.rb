@@ -6,10 +6,10 @@ end
 
 def summon_captain_planet(element)
    element.collect! {|item| item + "!"}
-   elements.each do |item|
-     item.capitalize
-   end
-    return element
+     elements.each do |item|
+       item.capitalize!
+     end
+  return element
 end
 
 def long_planeteer_calls# code an argument here
