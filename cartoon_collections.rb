@@ -16,7 +16,13 @@ def long_planeteer_calls(array)
   return array.any? {|item| item.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  x = 0
+  while x < cheese_types.size-1
+      array.find do |item|
+        item == chees_types[x]
+      end
+    x += 1
+  end
 end
