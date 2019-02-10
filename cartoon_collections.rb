@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(element)
    element.collect! {|item| item + "!"}
-     elements.each do |item|
+     element.each do |item|
        item.capitalize!
      end
   return element
