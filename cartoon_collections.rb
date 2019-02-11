@@ -24,6 +24,3 @@ def find_the_cheese(array)
     end
     return array.find {|item| item == chees_type[x]}
   end
-
-
-if array.any? {|item| item = cheese_type[x]} = true
