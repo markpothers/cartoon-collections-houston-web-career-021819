@@ -22,5 +22,5 @@ def find_the_cheese(array)
     until array.any? {|item| item == cheese_types[x]} == true || x == cheese_types.size
       x += 1
     end
-    return array.find {|item| item == cheese_types[x-1]}
+    return array.find {|item| item == cheese_types[x]}
   end
