@@ -19,8 +19,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     x = 0
-    until array.any? {|item| item = cheese_type[x]} == true|| x == cheese_types.size
+    until array.any? {|item| item = cheese_types[x]} == true|| x == cheese_types.size
       x += 1
     end
-    return array.find {|item| item == chees_type[x]}
+    return array.find {|item| item == cheese_types[x]}
   end
